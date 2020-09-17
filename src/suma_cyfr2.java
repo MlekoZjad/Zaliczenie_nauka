@@ -1,6 +1,6 @@
 	import java.util.Scanner;
 	
-public class xd {
+public class suma_cyfr2 {
 	
     public static void main(String[] args) {
         
