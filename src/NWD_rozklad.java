@@ -36,7 +36,7 @@ public static void main(String[] args) {
     }
 
     int x = 0;
-    System.out.print("Rozk≥ad na czynniki pierwsze liczby " + a1 + "=");
+    System.out.print("Rozk≈Çad na czynniki pierwsze liczby " + a1 + "=");
     while (x < liczbyPierwszeA.size()) {
         System.out.print(liczbyPierwszeA.get(x) + "*");
         x++;
@@ -53,7 +53,7 @@ public static void main(String[] args) {
     }
     System.out.println("");
     int y = 0;
-    System.out.print("Rozk≥ad na czynniki pierwsze liczby " + b1 + "=");
+    System.out.print("Rozk≈Çad na czynniki pierwsze liczby " + b1 + "=");
     while (y < liczbyPierwszeB.size()) {
         System.out.print(liczbyPierwszeB.get(y) + "*");
         y++;
@@ -78,3 +78,4 @@ public static void main(String[] args) {
     
 
 	}
+// Source: https://stackoverflow.com/questions/33064267/greatest-common-divisor-in-java-using-prime-factorizations?answertab=votes#tab-top
